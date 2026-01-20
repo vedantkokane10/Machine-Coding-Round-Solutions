@@ -1,0 +1,5 @@
+Machine Coding Round Solutions
+
+This repository contains **company-wise machine coding round problems** along with their **working solutions**.
+
+I appeared for multiple machine coding rounds as part of my interview preparation and successfully **cleared these rounds**.  
