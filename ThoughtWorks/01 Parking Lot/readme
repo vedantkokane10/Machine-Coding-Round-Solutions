@@ -1,0 +1,19 @@
+Design a parking lot billing system using object-oriented programming (OOP) concepts. The system should support three types of parking plans: Basic, Premium, and VIP. The pricing rules for each plan are as follows:
+
+1) Basic Plan: Base charge of $2, incremental charge of $1 for every hour after the first two hours, and a special threshold rule where the total charge is capped at $10 for a maximum of 5 hours.
+2) Premium Plan: Base charge of $5, incremental charge of $2 for every hour after the first three hours, and a special threshold rule where the total charge is capped at $20 for a maximum of 8 hours.
+3) VIP Plan: Base charge of $10, incremental charge of $3 for every hour after the first four hours, and a special threshold rule where the total charge is capped at $30 for a maximum of 12 hours.
+
+
+Create a class hierarchy to represent the parking plans and calculate the total charge based on the number of hours parked. Provide methods to add and remove plans, and to calculate the total charge for a given number of hours. Additionally, implement a discount system where customers with a unique ID can receive a 10% discount on their first booking and a 5% discount on alternate bookings.
+
+Sample inputs and expected outputs:
+
+Input (hours)	            Expected Output (charge)
+ 2 hours (Basic)	                $2
+ 5 hours (Premium)	                $15
+ 10 hours (VIP)	                    $30
+ 3 hours (Basic) with discount	    $1.8
+
+
+Write pseudo-code for the parking lot billing system, including the class hierarchy and methods to calculate the total charge and apply discounts.
